@@ -1,0 +1,15 @@
+# --- NetBeans Specific ---
+nbproject/private/
+build/
+dist/
+nbdist/
+.nb-gradle/
+
+# --- Temporary/Log Files ---
+*.log
+*.tmp
+*.bak
+
+# --- OS Specific (Optional but recommended) ---
+.DS_Store
+Thumbs.db
