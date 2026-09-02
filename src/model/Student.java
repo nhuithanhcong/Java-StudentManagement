@@ -15,7 +15,7 @@ public class Student {
         this.grades = new ArrayList<>();
     }
 
-    public Student(String id, String name, String dob, String email, String facultyId, List<Grade> grades) {
+    public Student(String id, String name, String dob, String email, String facultyId) {
         this.id = id;
         this.name = name;
         this.dob = dob;

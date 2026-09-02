@@ -1,13 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package repository;
 
-/**
- *
- * @author Quan
- */
-public class GenericFileRepository {
-    
+import java.util.List;
+
+public interface GenericFileRepository<T> {
+    List<T> loadAll();
+    void saveAll(List<T> items);
 }
