@@ -16,7 +16,7 @@ public class SubjectController {
         this.subjectList = subjectRepo.loadAll();
     }
     
-    public List<Subject> getSubjects() {
+    public List<Subject> getAllSubjects() {
         return subjectList;
     }
     
